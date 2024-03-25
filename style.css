@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.choose_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin: 2em;
+    margin-bottom: 0;
+}
+.choose_btns > button {
+ font-family: 'Caveat', cursive;
+ width: 8em;
+ height: 3em;
+ font-size: 23px;
+ letter-spacing: 5px;
+}
+
+#create_btn {
+    font-family: 'Caveat', cursive;
+    width:10em;
+    height:5em;
+    font-size:30px;
+    letter-spacing: 8px;
+    margin-top: 2em;
+}
+
+#slider {
+    width: 200px;
+    margin: 0 0 10px 0;
+    background-color: #E3B448 !important;
+}
+
+.grid {
+    display: flex;   
+    padding: 0;
+    background-color:white;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E3B448 !important;
+    
+}
+body h1 {
+    font-family: 'Caveat', cursive;
+    color: #3A6B35;
+    font-size: 60px;
+}
+body p {
+    font-family: 'Caveat', cursive;
+    color: #3A6B35;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin: 2em;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:500px;
+    margin: 2em;
+}
+.board {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    background-color: white !important;
+}
